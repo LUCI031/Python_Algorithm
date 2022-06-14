@@ -10,14 +10,14 @@ for _ in range(N):
     num = int(input())
     ques = list(input().rstrip()[1:-1].split(','))
     que2 = deque()
-    
+
     if num == 0:
         que1 = deque()
     else:
         que1 = deque(ques)
         for k in range(len(que1)-1,-1,-1):
             que2.append(que1[k])
-        
+
     for i in cmd:
         if i == 'R':
             if cnt == 1:
