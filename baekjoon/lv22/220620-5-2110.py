@@ -29,3 +29,4 @@ while left <= right:
     
 print(result)
 
+
