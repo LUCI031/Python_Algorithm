@@ -12,7 +12,7 @@ for i in range(1, M + 1):
     E[v].append(u)
 
 for i in range(1, N + 1):
-    E[i].sort()
+    E[i].sort(reverse=True)
 
 def bfs(graph,R,visited):
     que = deque([R])
