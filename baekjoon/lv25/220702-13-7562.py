@@ -32,3 +32,5 @@ for _ in range(N):
     start = tuple(map(int,input().split()))
     goal = tuple(map(int,input().split()))
     bfs(L,v,start,goal)
+    
+    
