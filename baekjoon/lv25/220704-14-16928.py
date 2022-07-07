@@ -31,3 +31,44 @@ while que:
                     que.append(cur)
         
 print(v[-1])
+
+# from collections import deque
+
+# def bfs():
+
+#     dx = [1, 2, 3, 4, 5, 6]
+
+#     while queue:
+#         if graph[-1] > 0:
+#             return graph[-1]
+#         x = queue.popleft()
+
+#         for i in range(len(dx)):
+
+#             nx = x + dx[i]
+        
+#             if nx < 101:
+#                 if nx in jump_keys:
+#                     tmp = nx
+#                     nx = jump[nx]
+#                     graph[tmp] = -1
+#                 if graph[nx] == 0:
+#                     graph[nx] = graph[x] + 1  
+#                     queue.append(nx)
+
+# n, m = map(int, input().split())
+
+# jump = {}
+
+# graph = [0 for _ in range(0, 101)]
+
+# for _ in range(n+m):
+#     x, y = map(int, input().split())
+#     jump[x] = y
+
+# jump_keys = jump.keys()
+
+# queue = deque()
+# queue.append(1)
+
+# print(bfs())
