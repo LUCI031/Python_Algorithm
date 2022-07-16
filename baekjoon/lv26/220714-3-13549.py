@@ -20,7 +20,7 @@ while que:
             continue
         if i == 0:
             v[nx_node] = v[cur]
-            que.append(nx_node)
+            que.appendleft(nx_node)
         else:
             v[nx_node] = v[cur]+1
             que.append(nx_node)
