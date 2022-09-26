@@ -13,9 +13,6 @@ for _ in range(P):
     arr = list(map(int,input().split()))
     like = arr[1:]
     likerm[arr[0]] = like
-    if P == 0:
-        classrm[1][1] = arr[0]
-        continue
     tmp = []
     for i in range(N):
         for j in range(N):
