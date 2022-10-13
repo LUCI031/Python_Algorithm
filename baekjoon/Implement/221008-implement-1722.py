@@ -1,4 +1,5 @@
 # https://rhdtka21.tistory.com/40
+# https://deok2kim.tistory.com/102
 
 import sys
 import itertools
